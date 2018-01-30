@@ -1,0 +1,4 @@
+<resources>
+    <integer name="debug_level">4</integer>
+    <bool name="show_in_ui">false</bool>
+</resources>

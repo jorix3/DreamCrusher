@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fi.tamk.jorix3.dreamcrusher.MainActivity"
+    android:shrinkColumns="*">
+
+    <TableRow>
+        <Button android:text="1" android:id="@+id/B1" style="@style/myButton"/>
+        <Button android:text="2" android:id="@+id/B2" style="@style/myButton"/>
+        <Button android:text="3" android:id="@+id/B3" style="@style/myButton"/>
+        <Button android:text="4" android:id="@+id/B4" style="@style/myButton"/>
+        <Button android:text="5" android:id="@+id/B5" style="@style/myButton"/>
+        <Button android:text="6" android:id="@+id/B6" style="@style/myButton"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="7" android:id="@+id/B7" style="@style/myButton"/>
+        <Button android:text="8" android:id="@+id/B8" style="@style/myButton"/>
+        <Button android:text="9" android:id="@+id/B9" style="@style/myButton"/>
+        <Button android:text="10" android:id="@+id/B10" style="@style/myButton"/>
+        <Button android:text="11" android:id="@+id/B11" style="@style/myButton"/>
+        <Button android:text="12" android:id="@+id/B12" style="@style/myButton"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="13" android:id="@+id/B13" style="@style/myButton"/>
+        <Button android:text="14" android:id="@+id/B14" style="@style/myButton"/>
+        <Button android:text="15" android:id="@+id/B15" style="@style/myButton"/>
+        <Button android:text="16" android:id="@+id/B16" style="@style/myButton"/>
+        <Button android:text="17" android:id="@+id/B17" style="@style/myButton"/>
+        <Button android:text="18" android:id="@+id/B18" style="@style/myButton"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="19" android:id="@+id/B19" style="@style/myButton"/>
+        <Button android:text="20" android:id="@+id/B20" style="@style/myButton"/>
+        <Button android:text="21" android:id="@+id/B21" style="@style/myButton"/>
+        <Button android:text="22" android:id="@+id/B22" style="@style/myButton"/>
+        <Button android:text="23" android:id="@+id/B23" style="@style/myButton"/>
+        <Button android:text="24" android:id="@+id/B24" style="@style/myButton"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="25" android:id="@+id/B25" style="@style/myButton"/>
+        <Button android:text="26" android:id="@+id/B26" style="@style/myButton"/>
+        <Button android:text="27" android:id="@+id/B27" style="@style/myButton"/>
+        <Button android:text="28" android:id="@+id/B28" style="@style/myButton"/>
+        <Button android:text="29" android:id="@+id/B29" style="@style/myButton"/>
+        <Button android:text="30" android:id="@+id/B30" style="@style/myButton"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="31" android:id="@+id/B31" style="@style/myButton"/>
+        <Button android:text="32" android:id="@+id/B32" style="@style/myButton"/>
+        <Button android:text="33" android:id="@+id/B33" style="@style/myButton"/>
+        <Button android:text="34" android:id="@+id/B34" style="@style/myButton"/>
+        <Button android:text="35" android:id="@+id/B35" style="@style/myButton"/>
+        <Button android:text="36" android:id="@+id/B36" style="@style/myButton"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="37" android:id="@+id/B37" style="@style/myButton"/>
+        <Button android:text="38" android:id="@+id/B38" style="@style/myButton"/>
+        <Button android:text="39" android:id="@+id/B39" style="@style/myButton"/>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/notifications"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/lucky_button"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textSize="25sp"
+        android:text="I Feel Lucky"
+        android:onClick="iFeelLucky"/>
+
+</TableLayout>
